@@ -37,7 +37,7 @@ class TodoOrDieTest < UnitTest
 
     assert_equal result, "pants"
     assert_equal actual_message, "kaka"
-    assert_same actual_by, some_time
+    assert_equal actual_by, some_time
   end
 
   def test_config_and_reset
